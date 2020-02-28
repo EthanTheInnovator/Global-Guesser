@@ -13,6 +13,12 @@
 		E9022CF323C4B380002A3DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9022CF223C4B380002A3DE9 /* Assets.xcassets */; };
 		E9022CF623C4B380002A3DE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9022CF523C4B380002A3DE9 /* Preview Assets.xcassets */; };
 		E9022CF923C4B380002A3DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9022CF723C4B380002A3DE9 /* LaunchScreen.storyboard */; };
+		E9022D0123C4B39B002A3DE9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9022D0023C4B39B002A3DE9 /* MapView.swift */; };
+		E9022D0323C4B6B6002A3DE9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9022D0223C4B6B6002A3DE9 /* Location.swift */; };
+		E9178B5223CF5EAC00EBD707 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9178B5123CF5EAC00EBD707 /* UserDefault.swift */; };
+		E9178B5423CF5EBD00EBD707 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9178B5323CF5EBD00EBD707 /* UserSettings.swift */; };
+		E99ACD3E23CC9D3200F8C512 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99ACD3D23CC9D3200F8C512 /* StartView.swift */; };
+		E9EF42FC23CE0356001E59E5 /* PlayerScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EF42FB23CE0356001E59E5 /* PlayerScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		E9022CF523C4B380002A3DE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9022CF823C4B380002A3DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9022CFA23C4B380002A3DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9022D0023C4B39B002A3DE9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E9022D0223C4B6B6002A3DE9 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E9178B5123CF5EAC00EBD707 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		E9178B5323CF5EBD00EBD707 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		E99ACD3D23CC9D3200F8C512 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		E9EF42FB23CE0356001E59E5 /* PlayerScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,13 @@
 			children = (
 				E9022CEC23C4B37F002A3DE9 /* AppDelegate.swift */,
 				E9022CEE23C4B37F002A3DE9 /* SceneDelegate.swift */,
+				E99ACD3D23CC9D3200F8C512 /* StartView.swift */,
+				E9178B5123CF5EAC00EBD707 /* UserDefault.swift */,
+				E9178B5323CF5EBD00EBD707 /* UserSettings.swift */,
 				E9022CF023C4B37F002A3DE9 /* ContentView.swift */,
+				E9022D0023C4B39B002A3DE9 /* MapView.swift */,
+				E9022D0223C4B6B6002A3DE9 /* Location.swift */,
+				E9EF42FB23CE0356001E59E5 /* PlayerScore.swift */,
 				E9022CF223C4B380002A3DE9 /* Assets.xcassets */,
 				E9022CF723C4B380002A3DE9 /* LaunchScreen.storyboard */,
 				E9022CFA23C4B380002A3DE9 /* Info.plist */,
@@ -146,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9178B5223CF5EAC00EBD707 /* UserDefault.swift in Sources */,
 				E9022CED23C4B37F002A3DE9 /* AppDelegate.swift in Sources */,
+				E9022D0123C4B39B002A3DE9 /* MapView.swift in Sources */,
+				E9022D0323C4B6B6002A3DE9 /* Location.swift in Sources */,
+				E9178B5423CF5EBD00EBD707 /* UserSettings.swift in Sources */,
+				E99ACD3E23CC9D3200F8C512 /* StartView.swift in Sources */,
 				E9022CEF23C4B37F002A3DE9 /* SceneDelegate.swift in Sources */,
 				E9022CF123C4B37F002A3DE9 /* ContentView.swift in Sources */,
+				E9EF42FC23CE0356001E59E5 /* PlayerScore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
