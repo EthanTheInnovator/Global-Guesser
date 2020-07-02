@@ -17,11 +17,4 @@ Welcome to my GlobalGuesser app.
    
    Your score is like golf; you want a lower score.
    
-   At one point I tried to have a list of high scores, but I found a bug in SwiftUI
-   
-   Bugs:
-   - Sometimes you have to press confirm location twice. Idk why
-   - Sometimes the marker for "Your Guess" is the one for the right answer. Idk why
-   - Sometimes the zoom will zoom in a bit too far and cut off the text, Ik why but couldn't fix it.
-   
    Everything else should be good. Have fun.
